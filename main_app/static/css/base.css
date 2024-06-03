@@ -1,0 +1,45 @@
+.main-nav-container {
+  /* Positional */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  /* Color */
+  background-color: #274156;
+  border-bottom: 5px solid #1C6E8C;
+}
+
+.logo-and-app-name-container {
+  /* Positional */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.app-name {
+  /* Positional */
+  margin: 0px 0px 0px 30px;
+
+  /* Color */
+  color: #FBFCFF;
+
+  /* Font */
+  font-family: "Bebas Neue";
+  font-size: 36px; 
+}
+
+.logo {
+  /* Positional */
+  width: 75px;
+  height: 75px;
+  margin: 0px 0px 0px 15px;
+}
+
+body {
+  /* Positional */
+  margin: 0px;
+
+  /* Color */
+  background-color: #D0CCD0;
+}
