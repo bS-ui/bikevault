@@ -16,14 +16,14 @@
 <body>
   <header>
     <div class="main-nav-container">
-      <div class="logo-and-app-name-container">
+      <a href="{% url 'home' %}" class="logo-and-app-name-container">
         <img src="{% static 'images/logo.png' %}" alt="BikeVault App Logo" class="logo">
         <div class="app-name">
           BikeVault
         </div>
-      </div>
+      </a>
       <div class="nav-links-container">
-
+        <a href="{% url 'bike-index' %}" class="all-bikes">All Bikes</a>
       </div>
     </div>
   </header>
