@@ -46,7 +46,17 @@
   font-family: "Bebas Neue";
   font-size: 36px;
   text-decoration: none;
-  
+}
+
+.add-bike {
+  /* Positional */
+  margin: 0px 15px 0px 0px;
+  /* Color */
+  color: #FBFCFF;
+  /* Font */
+  font-family: "Bebas Neue";
+  font-size: 36px;
+  text-decoration: none;
 }
 
 body {
@@ -54,4 +64,31 @@ body {
   margin: 0px;
   /* Color */
   background-color: #D0CCD0;
+}
+
+.log-out, .log-in, .sign-up {
+  /* Positional */
+  margin: 0px 15px 0px 0px;
+  /* Color */
+  color: #FBFCFF;
+  /* Font */
+  font-family: "Bebas Neue";
+  font-size: 36px;
+  text-decoration: none;
+}
+
+.submit {
+  background-color: #274156;
+  border: 5px solid #1C6E8C;
+  color: #FBFCFF;
+  font-family: "Bebas Neue";
+  font-size: 24px;
+}
+
+.cancel, .delete {
+  background-color: #274156;
+  border: 5px solid #1C6E8C;
+  color: #FBFCFF;
+  font-family: "Bebas Neue";
+  font-size: 24px;
 }

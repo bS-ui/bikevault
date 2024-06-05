@@ -11,13 +11,13 @@
   align-items: center;
   background-color: #274156;
   padding: 10px;
-  width: 150px;
+  width: 300px;
   margin: 30px;
   border: 5px solid #1C6E8C;
-  
 }
 
-a {
+
+.details-container {
   color: #FBFCFF;
   text-decoration: none;
   font-family: "Bebas Neue";
@@ -27,4 +27,22 @@ a {
 
 #bike-icon {
   font-size: 100px;
+  color: #FBFCFF;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.edit, .delete {
+  background-color: #274156;
+  border: 5px solid #1C6E8C;
+  color: #FBFCFF;
+  font-family: "Bebas Neue";
+  font-size: 24px;
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
 }

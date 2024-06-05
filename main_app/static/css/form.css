@@ -1,0 +1,30 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.form-container {
+  font-family: "Bebas Neue";
+  font-size: 24px; 
+  color: #FBFCFF;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #274156;
+  border: 5px solid #1C6E8C;
+}
+
+#id_year, #id_make, #id_model {
+  height: 26px;
+}
+
+.submit {
+  background-color: #274156;
+  border: 5px solid #1C6E8C;
+  color: #FBFCFF;
+  font-family: "Bebas Neue";
+  font-size: 24px;
+}
